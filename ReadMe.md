@@ -184,6 +184,7 @@ App key and secret can be found in you app page in [App Console](https://www.dro
 git clone https://github.com/dropbox/dropbox-sdk-java.git
 cd dropbox-sdk-java
 ./update-submodules    # also do this after every "git checkout"
+pip install "ply>=3.4" "six>=1.3.0" "typing>=3.5.2"   # python dependencies needed to :generateStone
 ./gradlew build # requires `python` command to use Python 3.9, pip dropbox
 ```
 
