@@ -51,7 +51,7 @@ dependencies {
     testImplementation 'org.openjdk.jmh:jmh-core:1.12'
     testImplementation 'org.openjdk.jmh:jmh-generator-annprocess:1.35'
     testImplementation 'com.google.appengine:appengine-api-1.0-sdk:1.9.38'
-    testImplementation 'com.google.appengine:appengine-api-labs:1.9.38'
+    testImplementation 'com.google.appengine:appengine-api-labs:1.9.88'
     testImplementation 'com.google.appengine:appengine-api-stubs:1.9.38'
     testImplementation 'com.google.appengine:appengine-testing:1.9.38'
     testImplementation 'com.squareup.okhttp:okhttp:2.7.5'
