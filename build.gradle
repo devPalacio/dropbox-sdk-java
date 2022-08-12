@@ -56,7 +56,7 @@ dependencies {
     testImplementation 'com.google.appengine:appengine-testing:1.9.38'
     testImplementation 'com.squareup.okhttp:okhttp:2.7.5'
     testImplementation 'com.squareup.okhttp3:okhttp:4.0.0'
-    testImplementation 'com.google.guava:guava:19.0'
+    testImplementation 'com.google.guava:guava:23.0'
     testImplementation "com.google.truth:truth:1.1.3"
 }
 
