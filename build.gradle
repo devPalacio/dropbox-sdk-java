@@ -274,8 +274,8 @@ apply plugin: 'com.vanniktech.maven.publish'
 
 allprojects {
     plugins.withId("com.vanniktech.maven.publish") {
-        mavenPublish {
-            sonatypeHost = "S01"
+        mavenPublishing {
+            publishToMavenCentral("S01")
         }
     }
 }
